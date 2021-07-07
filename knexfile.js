@@ -14,6 +14,7 @@ module.exports = {
     seeds: {
       directory: './data/seeds'
     },
+    debug: true,
     // add the following
     pool: {
       afterCreate: (conn, done) => {
